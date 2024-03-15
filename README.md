@@ -17,7 +17,7 @@ Here you will find practical work on time series forcasting in the different not
 <details>
 <summary>Notebook 3 : </summary>
  
-
+gfhjhf
 
 </details>
 <details>

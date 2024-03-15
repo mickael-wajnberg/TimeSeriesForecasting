@@ -5,7 +5,7 @@ Here you will find practical work on time series forcasting in the different not
 <details>
 <summary>Notebook 1 : Introduction</summary>
 - predict the quarter dividend (earning per share) from johnson and johnson
-![Exemple Image](timeSeriesFigures/N1_1.png)
+![Exemple Image](./timeSeriesFigures/N1_1.png)
 - establish seasonality
 ![Exemple Image](timeSeriesFigures/N1_seasonality.png)
 - models are historical mean, last year mean, last value, naive seasonal copy of last year

@@ -14,7 +14,8 @@ Here you will find practical work on time series forcasting in the different not
 <summary>Notebook 2 : </summary>
 - established the GOOGL stock market (google) is a random walk with Augmented Dickey-Fuller and Autocorrelation. so, it cannot be predicted by itself well
 - prediction are simply drift, last value and mean
-<details>
+</details>
+ <details>
 <summary>Notebook 3 : </summary>
  
 gfhjhf

@@ -17,6 +17,6 @@ Here you will find practical work on time series forcasting in the different not
 Notebook 3 : 
 
 
-<details>
+</details>
 
 [<back to portfolio](https://mickael-wajnberg.github.io/)

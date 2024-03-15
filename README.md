@@ -1,4 +1,6 @@
 [<back to portfolio](https://mickael-wajnberg.github.io/)
+
+<br>
 Here you will find practical work on time series forcasting in the different notebooks
 
 Notebook 1 : 

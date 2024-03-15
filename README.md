@@ -2,7 +2,8 @@
 
 <br>
 go to [Github Repository](https://github.com/mickael-wajnberg/TimeSeriesForecasting)
-<br>
+<br><br><br><br>
+---
 Here you will find practical work on time series forcasting in the different notebooks
 <br><br>
 <details>
@@ -127,7 +128,19 @@ Here you will find practical work on time series forcasting in the different not
 | (0, 1)      | 39402.2695 |
 | (0, 0)      | 49035.1842 |
 
-- 
+- in the top 3, the less complex model is (2,2) we evaluate the model quality by residual analysis (QQPlots, Ljung-Box tests, histogram of residual distribution, autocorrelation on residuals)
+<br>
+<img src="timeSeriesFigures/N3_18.png?raw=true"/>
+<br>
+- finally we make prediction on the differentiated model and see the ARMA model performs bettesr
+<br>
+<img src="timeSeriesFigures/N3_19.png?raw=true"/>
+<img src="timeSeriesFigures/N3_20.png?raw=true"/>
+<br>
+- finally we apply the results to the original dataset
+<br>
+<img src="timeSeriesFigures/N3_21.png?raw=true"/>
+<br>
 </details>
 <details>
 <summary>Notebook 4 : </summary>

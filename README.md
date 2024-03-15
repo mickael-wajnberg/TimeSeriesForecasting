@@ -1,5 +1,5 @@
 [<back to portfolio](https://mickael-wajnberg.github.io/)
-![Exemple Image 1](timeSeriesFigures/N1_1.png)
+
 <br>
 Here you will find practical work on time series forcasting in the different notebooks
 <details>
@@ -9,14 +9,20 @@ Here you will find practical work on time series forcasting in the different not
 <img src="timeSeriesFigures/N1_1.png?raw=true"/>
 <br>
 - establish seasonality
-![Exemple Image](timeSeriesFigures/N1_seasonality.png)
+<br>
+<img src="timeSeriesFigures/N1_seasonality.png?raw=true"/>
+<br>
 - models are historical mean, last year mean, last value, naive seasonal copy of last year
-![Exemple Image](timeSeriesFigures/N1_split.png)
- ![Exemple Image](timeSeriesFigures/N1_mean_pred.png)
- ![Exemple Image](timeSeriesFigures/N1_last_pred.png)
- ![Exemple Image](timeSeriesFigures/N1_seasonality_pred.png)
+<br>
+<img src="timeSeriesFigures/N1_split.png?raw=true"/>
+ <img src="timeSeriesFigures/N1_mean_pred.png?raw=true"/>
+ <img src="timeSeriesFigures/N1_last_pred.png?raw=true"/>
+ <img src="timeSeriesFigures/N1_seasonality_pred.png?raw=true"/>
+<br>
 - evaluation is made by MAPE
- ![Exemple Image](timeSeriesFigures/N1_result.png)
+ <br>
+<img src="timeSeriesFigures/N1_result.png?raw=true"/>
+<br>
 </details>
 <details>
 <summary>Notebook 2 : </summary>

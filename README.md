@@ -108,7 +108,8 @@ Here you will find practical work on time series forcasting in the different not
 <img src="timeSeriesFigures/N3_17.png?raw=true"/>
 <br>
 - we use Aikake Information Criterion to find the rank p,q of the ARMA(p,q) process
-<img src="timeSeriesFigures/N3_t.png?raw=true" style="width: 35%; height: auto;"/>
+<br>
+<img src="timeSeriesFigures/N3_t.png?raw=true" style="width: 30%; height: auto;"/>
 <br>
 
 - in the top 3, the less complex model is (2,2) we evaluate the model quality by residual analysis (QQPlots, Ljung-Box tests, histogram of residual distribution, autocorrelation on residuals)

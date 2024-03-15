@@ -5,7 +5,9 @@ Here you will find practical work on time series forcasting in the different not
 
 Notebook 1 : 
 - predict the quarter dividend (earning per share) from johnson and johnson using basic models as baselines
+![Exemple Image](timeSeriesFigures/N1_1.png)
 - models are historical mean, last year mean, last value, naive seasonal copy of last year
+
 - evaluation is made by MAPE
 
 Notebook 2 : 
@@ -13,3 +15,8 @@ Notebook 2 :
 - prediction are simply drift, last value and mean
 
 Notebook 3 : 
+
+
+
+
+[<back to portfolio](https://mickael-wajnberg.github.io/)

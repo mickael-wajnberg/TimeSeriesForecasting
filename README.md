@@ -1,12 +1,12 @@
 [<back to portfolio](https://mickael-wajnberg.github.io/)
-![Exemple Image](timeSeriesFigures/N1_1.png)
+![Exemple Image 1](timeSeriesFigures/N1_1.png)
 <br>
 Here you will find practical work on time series forcasting in the different notebooks
 <details>
 <summary>Notebook 1 : Introduction</summary>
 - predict the quarter dividend (earning per share) from johnson and johnson
 <br>
- ![Exemple Image](timeSeriesFigures/N1_1.png)
+ ![Exemple Image2 ](timeSeriesFigures/N1_1.png)
  <br>
 - establish seasonality
 ![Exemple Image](timeSeriesFigures/N1_seasonality.png)

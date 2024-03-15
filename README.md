@@ -21,7 +21,7 @@ Here you will find practical work on time series forcasting in the different not
 <br>
 - evaluation is made by MAPE
  <br>
-<img src="timeSeriesFigures/N1_result.png?raw=true"/>
+<img src="timeSeriesFigures/N1_results.png?raw=true"/>
 <br>
 </details>
 <details>

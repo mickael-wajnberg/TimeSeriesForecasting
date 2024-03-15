@@ -127,13 +127,74 @@ Here you will find practical work on time series forcasting in the different not
 <br>
 </details>
 <details>
-<summary>Notebook 4 : </summary>
+<summary>Notebook 4 : ARMA to SARIMAX</summary>
+- again let's predict the quarter dividend (earning per share) from johnson and johnson
+<br>
+<img src="timeSeriesFigures/N1_1.png?raw=true"/>
+<br>
+- we observe that by first differentiation the series is not stationary but on second differenciation it is, with Augmented Dickey-Fuller (ADF)
+<br>ADF Statistic original: 2.7
+<br>p-value: 1.0<br>
+<br>ADF Statistic diff1: -0.4
+<br>p-value diff1: 0.9<br>
+<br>ADF Statistic diff2: -3.5
+<br>p-value diff2: 0.006<br><br>
+- by fitting an ARIMA model with I=2 and using AIC (cf notebook3) to find AR and MA are rank 3 we can make a residual evaluation to see the model residuals are effectively the unpredictable part
+<br>
+<img src="timeSeriesFigures/N4_1.png?raw=true"/>
+<br>
+- we compare ARIMA to naive seasonal (our best baseline, cf notebook1) 
+<br>
+<img src="timeSeriesFigures/N4_2.png?raw=true"/>
+<img src="timeSeriesFigures/N4_3.png?raw=true"/>
+<br>
+- let's take another seasonal dataset : showing the number of passengers in a flight company per month
+<br>
+<img src="timeSeriesFigures/N4_4.png?raw=true"/>
+<br>
+- autocorrelation show clear periodic patterns
+<br>
+<img src="timeSeriesFigures/N4_5.png?raw=true"/>
+<img src="timeSeriesFigures/N4_6.png?raw=true"/>
+<br>
+- patterns seems to be every 12 we can confirm visually with Fourier and spectral analysis, plotting seasonality
+ <br>
+<img src="timeSeriesFigures/N4_7.png?raw=true"/>
+<img src="timeSeriesFigures/N4_8.png?raw=true"/>
+<img src="timeSeriesFigures/N4_9.png?raw=true"/>
+<br>
+- it can also be confirmed with statistical test such as ADF over seasonal differenced series, a chi2 test if we bin data per 12 and kruskal wallis (KW is inconclusive here)
+<br><br>'ADF Statistic': -3.383020726492479,
+ <br>'p-value': 0.011551493085515039,
+<br><br>Chi-Square Statistic: 292.61636904761906
+<br>P-Value: 5.1233345885199216e-21
+<br>Degrees of Freedom: 99
+<br><br>KruskalResult(statistic=11.148400259640129, pvalue=0.430915880610989)
+ <br>
+ - we fit a SARIMA after a selection by AIC and evaluate the residuals 
+ <br>
+<img src="timeSeriesFigures/N4_11.png?raw=true"/>
+<br>
+ - results are compared with MAPE
+  <br>
+<img src="timeSeriesFigures/N4_12.png?raw=true"/>
+<img src="timeSeriesFigures/N4_13.png?raw=true"/>
+<br>
+- now we use USA realGDP to incorporate predictions with outside values (exogenous variables) and finally complete SARIMAX 
+ <br>
+<img src="timeSeriesFigures/N4_14.png?raw=true"/>
+<br>
+- with same process of AIC + residuals we find 
+<br>
+<img src="timeSeriesFigures/N4_15.png?raw=true"/>
+<br>
+it doesn't look like much but the difference is in M$
+ 
+</details>
 
 
-
-
-
-
+<details>
+<summary>Notebook 4 : ARMA to SARIMAX</summary>
  </details>
  
 [<back to portfolio](https://mickael-wajnberg.github.io/)

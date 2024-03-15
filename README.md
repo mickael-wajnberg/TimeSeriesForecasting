@@ -2,6 +2,7 @@
 
 <br>
 Here you will find practical work on time series forcasting in the different notebooks
+<br><br>
 <details>
 <summary>Notebook 1 : Introduction</summary>
 - predict the quarter dividend (earning per share) from johnson and johnson
@@ -25,9 +26,26 @@ Here you will find practical work on time series forcasting in the different not
 <br>
 </details>
 <details>
-<summary>Notebook 2 : </summary>
-- established the GOOGL stock market (google) is a random walk with Augmented Dickey-Fuller and Autocorrelation. so, it cannot be predicted by itself well
-- prediction are simply drift, last value and mean
+
+
+
+ 
+<summary>Notebook 2 : Random Walks</summary>
+- established the GOOGL stock market (google) is a random walk with Augmented Dickey-Fuller and Autocorrelation. so, it cannot be predicted by itself well.
+<br>
+<img src="timeSeriesFigures/N2_dataset.png?raw=true"/>
+ <img src="timeSeriesFigures/N2_autocorrel.png?raw=true"/>
+<br>
+- year ahead predictions are simply made by drift, last value and mean and evaluated through MSE
+<br>
+<img src="timeSeriesFigures/N2_predictions.png?raw=true"/>
+ <img src="timeSeriesFigures/N2_results.png?raw=true"/>
+<br>
+- another approch very anaive is to predict a copy of the last value
+<br>
+<img src="timeSeriesFigures/N2_onestep.png?raw=true"/>
+ <img src="timeSeriesFigures/N2_resultsF.png?raw=true"/>
+<br>
 </details>
  <details>
 <summary>Notebook 3 : </summary>
@@ -37,4 +55,11 @@ gfhjhf
 </details>
 <details>
 <summary>Notebook 4 : </summary>
+
+
+
+
+
+
+ </details>
 [<back to portfolio](https://mickael-wajnberg.github.io/)

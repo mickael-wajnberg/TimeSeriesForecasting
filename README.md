@@ -96,7 +96,15 @@ Here you will find practical work on time series forcasting in the different not
 <img src="timeSeriesFigures/N3_13.png?raw=true"/>
 <img src="timeSeriesFigures/N3_14.png?raw=true"/>
 <br>
-- In a last scenario, let's explore when a dataset has both the properti
+- In a last scenario, let's explore when a dataset has both the properties MA and AR : the hourly bandwidth usage of a data center
+<br>
+<img src="timeSeriesFigures/N3_15.png?raw=true"/>
+<br>
+- We can see a slow decay autocorrelation and an alternating pattern in partial autocorrelation
+- <br>
+<img src="timeSeriesFigures/N3_16.png?raw=true"/>
+<img src="timeSeriesFigures/N3_17.png?raw=true"/>
+<br>
 </details>
 <details>
 <summary>Notebook 4 : </summary>

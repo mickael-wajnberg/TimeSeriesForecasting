@@ -1,6 +1,8 @@
 [<back to portfolio](https://mickael-wajnberg.github.io/)
 
 <br>
+go to [Github Repository](https://github.com/mickael-wajnberg/TimeSeriesForecasting)
+<br>
 Here you will find practical work on time series forcasting in the different notebooks
 <br><br>
 <details>
@@ -105,6 +107,27 @@ Here you will find practical work on time series forcasting in the different not
 <img src="timeSeriesFigures/N3_16.png?raw=true"/>
 <img src="timeSeriesFigures/N3_17.png?raw=true"/>
 <br>
+- we use Aikake Information Criterion to find the rank p,q of the ARMA(p,q) process
+| Coordinates | Value      |
+|-------------|------------|
+| (3, 2)      | 27991.0639 |
+| (2, 3)      | 27991.2875 |
+| **(2, 2)** 🔴 | **27991.6036** |
+| (3, 3)      | 27993.4169 |
+| (1, 3)      | 28003.3496 |
+| (1, 2)      | 28051.3514 |
+| (3, 1)      | 28071.1555 |
+| (3, 0)      | 28095.6182 |
+| (2, 1)      | 28097.2508 |
+| (2, 0)      | 28098.4077 |
+| (1, 1)      | 28172.5100 |
+| (1, 0)      | 28941.0570 |
+| (0, 3)      | 31355.8021 |
+| (0, 2)      | 33531.1793 |
+| (0, 1)      | 39402.2695 |
+| (0, 0)      | 49035.1842 |
+
+- 
 </details>
 <details>
 <summary>Notebook 4 : </summary>

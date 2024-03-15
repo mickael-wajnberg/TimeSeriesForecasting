@@ -1,5 +1,5 @@
 [<back to portfolio](https://mickael-wajnberg.github.io/)
-
+![Exemple Image](timeSeriesFigures/N1_1.png)
 <br>
 Here you will find practical work on time series forcasting in the different notebooks
 <details>

@@ -194,7 +194,47 @@ it doesn't look like much but the difference is in M$
 
 
 <details>
-<summary>Notebook 4 : ARMA to SARIMAX</summary>
+<summary>Notebook 5 : Mutliple Intricated Time Series</summary>
+ - we consider here the case where two times series affect each others : real disposable income and real conumption in USA
+<br>
+<img src="timeSeriesFigures/N5_1.png?raw=true"/>
+<br>
+- we use the VARMAX model and we consider AIC to find the best rank : best found = 3
+- we now use granger causality tests to determine if one series causes the other 
+ realcons Granger-causes realdpi?
+
+<br>------------------
+<br>
+<br>Granger Causality
+<br>number of lags (no zero) 3
+<br>ssr based F test:         F=9.2363  , p=0.0000  , df_denom=192, df_num=3
+<br>ssr based chi2 test:   chi2=28.7191 , p=0.0000  , df=3
+<br>likelihood ratio test: chi2=26.8268 , p=0.0000  , df=3
+<br>parameter F test:         F=9.2363  , p=0.0000  , df_denom=192, df_num=3
+<br>
+<br>realdpi Granger-causes realcons?
+<br>
+<br>------------------
+<br>
+<br>Granger Causality
+<br>number of lags (no zero) 3
+<br>ssr based F test:         F=2.8181  , p=0.0403  , df_denom=192, df_num=3
+<br>ssr based chi2 test:   chi2=8.7625  , p=0.0326  , df=3
+<br>likelihood ratio test: chi2=8.5751  , p=0.0355  , df=3
+<br>parameter F test:         F=2.8181  , p=0.0403  , df_denom=192, df_num=3
+<br>
+- granger causality exists both ways so there is some correlation effect
+- after checking residuals with the selected model (random in both series) we evaluatepredictive model
+    <br>
+<img src="timeSeriesFigures/N5_3.png?raw=true"/>
+<img src="timeSeriesFigures/N5_2.png?raw=true"/>
+<br>
  </details>
- 
+
+
+<details>
+<summary>Notebook 6 : Preparing framework for Deep Learning </summary>
+
+  </details>
+  
 [<back to portfolio](https://mickael-wajnberg.github.io/)

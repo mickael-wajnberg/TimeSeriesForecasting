@@ -271,5 +271,16 @@ it doesn't look like much but the difference is in M$
 <img src="timeSeriesFigures/N6_10.png?raw=true"/>
 <br>
   </details>
+
+
+<details>
+<summary>Notebook 7 : Deep Learning basic architectures</summary>
+ - in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume
+- we try to predict a single value with the linear regression 
+ <br>
+<img src="timeSeriesFigures/K7_1.png?raw=true"/>
+<br>
+ - then we extend to a full day of prediction 
+</details>
   
 [<back to portfolio](https://mickael-wajnberg.github.io/)

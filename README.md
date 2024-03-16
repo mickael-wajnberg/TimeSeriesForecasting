@@ -234,7 +234,42 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 6 : Preparing framework for Deep Learning </summary>
-
+- we have a large dataset of hourly traffic volume in interstate metro but data is not "clean" , we also have multiple variables at our disposal but uncomplete (display here the number of missing values)
+ <br>
+<img src="timeSeriesFigures/N6_1.png?raw=true"/>
+ <img src="timeSeriesFigures/N6_2.png?raw=true"/>
+<br>
+- we drop some columns and fill the empty values per median  
+<br>
+<img src="timeSeriesFigures/N6_3.png?raw=true"/>
+<br>
+- since data is too dense for eye sight, we zoom in to see that there is daily weekly seasonality in traffic volume but also in temperature
+ <br>
+<img src="timeSeriesFigures/N6_4.png?raw=true"/>
+ <img src="timeSeriesFigures/N6_5.png?raw=true"/>
+<br>
+- to address seasonality we do feature engineering creating cos and sin on hour time and adding day name and month as separate features
+- we define classes for visalizing results and define baseline models on sliding windows
+- baseline 1 is a 1 time stamp shift (predicting each values is like the previous one) 
+ <br>
+<img src="timeSeriesFigures/N6_6.png?raw=true"/>
+<br>
+ - baseline 2 is last value of the input part  replicated on as many prediction steps desired (by default as much as input)
+ <br>
+<img src="timeSeriesFigures/N6_7.png?raw=true"/>
+<br>
+ - baseline 3 is copying exactly the input in the output 
+ <br>
+<img src="timeSeriesFigures/N6_8.png?raw=true"/>
+<br>
+ - baseline 4 is copying the input average in the output as manytime as desired
+ <br>
+<img src="timeSeriesFigures/N6_9.png?raw=true"/>
+<br>
+ - we can then evaluate the results and be ready to compare our next evolved deep learning models of notebooks 7 and 8 
+  <br>
+<img src="timeSeriesFigures/N6_10.png?raw=true"/>
+<br>
   </details>
   
 [<back to portfolio](https://mickael-wajnberg.github.io/)

@@ -276,6 +276,7 @@ it doesn't look like much but the difference is in M$
 <details>
 <summary>Notebook 7 : Deep Learning basic architectures</summary>
 - in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume
+- there are three scenarii : predicting the next value on one variable, predicting few next values on one variable and predicting next few values on multiple variables.
 - we try to predict a single value with the linear regression 
  <br>
 <img src="timeSeriesFigures/K7_1.png?raw=true"/>
@@ -300,7 +301,16 @@ it doesn't look like much but the difference is in M$
 
 
 <details>
-<summary>Notebook 7 : Deep Learning basic architectures</summary>
+<summary>Notebook 8 : Time Series Deep Learning Specific Architectures</summary>
+- First architecture that we can use for time series analysis is LSTM
+- We observe that for multistep - one variable LSTM produces a better result than linear regression and simple deep neural network 
+   <br>
+<img src="timeSeriesFigures/A8_1.png?raw=true"/>
+<br>
+- we tried both CNN and CNN+LSTM architectures but it still seems LSTM out perform them 
+   <br>
+<img src="timeSeriesFigures/A8_2.png?raw=true"/>
+<br>
 </details>
   
 [<back to portfolio](https://mickael-wajnberg.github.io/)

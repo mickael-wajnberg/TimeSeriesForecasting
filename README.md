@@ -302,12 +302,12 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 8 : Time Series Deep Learning Specific Architectures</summary>
-- First architecture that we can use for time series analysis is LSTM
-- We observe that for multistep - one variable LSTM produces a better result than linear regression and simple deep neural network 
+- First architecture that we can use for time series analysis is LSTM<br>
+- We observe that for multistep - one variable LSTM produces a better result than linear regression and simple deep neural network <br>
    <br>
 <img src="timeSeriesFigures/A8_1.png?raw=true"/>
 <br>
-- we tried both CNN and CNN+LSTM architectures but it still seems LSTM out perform them 
+- we tried both CNN and CNN+LSTM architectures but it still seems LSTM out perform them <br>
    <br>
 <img src="timeSeriesFigures/A8_2.png?raw=true"/>
 <br>

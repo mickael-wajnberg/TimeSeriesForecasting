@@ -234,6 +234,7 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 6 : Preparing framework for Deep Learning </summary>
+ <br>
 - we have a large dataset of hourly traffic volume in interstate metro but data is not "clean" , we also have multiple variables at our disposal but uncomplete (display here the number of missing values)
  <br>
 <img src="timeSeriesFigures/N6_1.png?raw=true"/>
@@ -275,24 +276,25 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 7 : Deep Learning basic architectures</summary>
-- in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume
-- there are three scenarii : predicting the next value on one variable, predicting few next values on one variable and predicting next few values on multiple variables.
-- we try to predict a single value with the linear regression 
+ <br>
+- in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume<br>
+- there are three scenarii : predicting the next value on one variable, predicting few next values on one variable and predicting next few values on multiple variables.<br>
+- we try to predict a single value with the linear regression <br>
  <br>
 <img src="timeSeriesFigures/K7_1.png?raw=true"/>
 <br>
- - then we extend to a full day of prediction 
+ - then we extend to a full day of prediction <br>
  <br>
 <img src="timeSeriesFigures/K7_2.png?raw=true"/>
 <img src="timeSeriesFigures/K7_3.png?raw=true"/>
 <br>
- - we can also easily predict the output for two variables : traffic volume and temperature
+ - we can also easily predict the output for two variables : traffic volume and temperature<br>
  <br>
 <img src="timeSeriesFigures/K7_4.png?raw=true"/>
 <img src="timeSeriesFigures/K7_5.png?raw=true"/>
 <img src="timeSeriesFigures/K7_7.png?raw=true"/>
 <br>
- - Now that we have baselines with linear regressions we can go to deep learning models, adding two layers of ReLU (64 units) 
+ - Now that we have baselines with linear regressions we can go to deep learning models, adding two layers of ReLU (64 units) <br>
   <br>
 <img src="timeSeriesFigures/K7_7.png?raw=true"/>
 <img src="timeSeriesFigures/K7_8.png?raw=true"/>
@@ -302,6 +304,7 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 8 : Time Series Deep Learning Specific Architectures</summary>
+ <br>
 - First architecture that we can use for time series analysis is LSTM<br>
 - We observe that for multistep - one variable LSTM produces a better result than linear regression and simple deep neural network <br>
    <br>

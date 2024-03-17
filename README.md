@@ -4,7 +4,8 @@
 go to [Github Repository](https://github.com/mickael-wajnberg/TimeSeriesForecasting)
 <br><br><br><br>
 ---
-Here you will find practical work on time series forcasting in the different notebooks
+Here you will find practical work on time series forcasting in the different notebooks<br>
+This work has been used to teach a class on real projects<br>
 <br><br>
 <details>
 <summary>Notebook 1 : Introduction</summary>

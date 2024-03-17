@@ -275,12 +275,32 @@ it doesn't look like much but the difference is in M$
 
 <details>
 <summary>Notebook 7 : Deep Learning basic architectures</summary>
- - in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume
+- in previous notebook we developped baseline here we create different models the first one being a simple regression using only traffic volume
 - we try to predict a single value with the linear regression 
  <br>
 <img src="timeSeriesFigures/K7_1.png?raw=true"/>
 <br>
  - then we extend to a full day of prediction 
+ <br>
+<img src="timeSeriesFigures/K7_2.png?raw=true"/>
+<img src="timeSeriesFigures/K7_3.png?raw=true"/>
+<br>
+ - we can also easily predict the output for two variables : traffic volume and temperature
+ <br>
+<img src="timeSeriesFigures/K7_4.png?raw=true"/>
+<img src="timeSeriesFigures/K7_5.png?raw=true"/>
+<img src="timeSeriesFigures/K7_7.png?raw=true"/>
+<br>
+ - Now that we have baselines with linear regressions we can go to deep learning models, adding two layers of ReLU (64 units) 
+  <br>
+<img src="timeSeriesFigures/K7_7.png?raw=true"/>
+<img src="timeSeriesFigures/K7_8.png?raw=true"/>
+<br>
+   </details>
+
+
+<details>
+<summary>Notebook 7 : Deep Learning basic architectures</summary>
 </details>
   
 [<back to portfolio](https://mickael-wajnberg.github.io/)
